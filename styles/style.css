@@ -47,10 +47,9 @@ body {
     height: 58vh;
   }
 }
-
 .main_container {
   background: red;
-  height: 100vh;
+  height: auto;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -58,14 +57,26 @@ body {
 .content_container {
   background: black;
   width: 80vw;
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 30px;
   margin: 20px;
+  color: white;
 }
 .title {
-  color: white;
+  color: red;
   font-size: 6vw;
+}
+.section01 {
+  width: 80vw;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+.headshot {
+  width: 30vw;
+  border-radius: 30px;
 }
