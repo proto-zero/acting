@@ -9,10 +9,45 @@ body {
 }
 .transparent {
   background: transparent;
-  height: 60vh;
   width: 100vw;
-  margin: 0px;
+  margin: 0 0 0 0;
 }
+@media (min-width: 280px) {
+  .transparent {
+    height: 15vh;
+  }
+}
+@media (min-width: 320px) {
+  .transparent {
+    height: 20vh;
+  }
+}
+@media (min-width: 540px) {
+  .transparent {
+    height: 26vh;
+  }
+}
+@media (min-width: 760px) {
+  .transparent {
+    height: 29vh;
+  }
+}
+@media (min-width: 1024px) {
+  .transparent {
+    height: 39vh;
+  }
+}
+@media (min-width: 1280px) {
+  .transparent {
+    height: 49vh;
+  }
+}
+@media (min-width: 1530px) {
+  .transparent {
+    height: 58vh;
+  }
+}
+
 .main_container {
   background: red;
   height: 100vh;
@@ -28,8 +63,9 @@ body {
   flex-direction: column;
   align-items: center;
   border-radius: 30px;
+  margin: 20px;
 }
 .title {
   color: white;
-  font-size: 6em;
+  font-size: 6vw;
 }
