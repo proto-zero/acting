@@ -28,7 +28,7 @@ body {
   align-items: center;
   border-radius: 30px;
   margin: 20px;
-  box-shadow: 0 19px 18px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  box-shadow: 3px 19px 22px black;
   border: 2px solid #f6f6f6;
 }
 .title {
@@ -45,19 +45,10 @@ body {
   color: #B00020;
   font-size: 6vw;
   margin: 0;
+  text-shadow: -1px 1px 2px #f6f6f6;
 }
 .title a {
   color: #f6f6f6;
-}
-.banner {
-  width: 95%;
-  background: #B00020;
-  text-align: center;
-  border-radius: 30px;
-  margin: 10px 10px 20px 10px;
-  box-shadow: 0 19px 18px rgba(0,0,0,1), 0 15px 12px rgba(0,0,0,1);
-  color: #f6f6f6;
-  border: 2px solid #f6f6f6
 }
 .section01 {
   width: 80vw;
@@ -69,9 +60,19 @@ body {
 .headshot {
   width: 30vw;
   border-radius: 30px;
-  box-shadow: 0 19px 18px rgba(0,0,0,1), 0 15px 12px rgba(0,0,0,1);
+  box-shadow: 0 19px 18px black, 0 15px 12px black;
   margin: 10px 10px 20px 10px;
   border: 2px solid #f6f6f6;
+}
+.banner {
+  background: #B00020;
+  text-align: center;
+  border-radius: 30px;
+  margin: 10px 10px 20px 10px;
+  box-shadow: -10px 19px 18px black;
+  color: #f6f6f6;
+  border: 2px solid #f6f6f6;
+  text-shadow: -1px 1px 2px #121212;
 }
 .reels_section {
   display: flex;
@@ -107,6 +108,7 @@ iframe {
     height: 15vh;
   }
   .banner {
+    width: 70vw;
     font-size: 5vw;
   }
   .section01 {
@@ -151,6 +153,7 @@ iframe {
     height: 39vh;
   }
   .banner {
+    width: 95%;
     font-size: 2vw;
   }
   .section01 {
@@ -158,12 +161,12 @@ iframe {
     justify-content: space-around;
   }
   .headshot {
-    width: 30vw;
+    width: 36vw;
     margin: 5px;
   }
   iframe {
-    width: 40vw;
-    height: 30vh;
+    width: 36vw;
+    height: 15vw;
   }
   .resumes {
     flex-direction: row;
