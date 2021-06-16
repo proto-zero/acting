@@ -114,6 +114,9 @@ iframe {
   .transparent {
     height: 15vh;
   }
+  .title p {
+    font-size: 3vw;
+  }
   .banner {
     width: 70vw;
     font-size: 5vw;
@@ -161,6 +164,9 @@ iframe {
 @media (min-width: 1024px) {
   .transparent {
     height: 39vh;
+  }
+  .title p {
+    font-size: 1.5vw;
   }
   .banner {
     width: 95%;
