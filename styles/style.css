@@ -49,6 +49,14 @@ body {
 .title a {
   color: white;
 }
+.banner {
+  width: 95%;
+  background: red;
+  font-size: 2vw;
+  text-align: center;
+  border-radius: 30px;
+  margin: 5px;
+}
 .section01 {
   width: 80vw;
   height: auto;
@@ -60,7 +68,24 @@ body {
   width: 30vw;
   border-radius: 30px;
 }
-
+.resume_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+.resumes {
+  width: 80vw;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+.resumes img {
+  width: 36vw;
+  height: auto;
+  border-radius: 30px;
+}
 
 
 
