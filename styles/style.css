@@ -1,5 +1,5 @@
 body {
-  background: red;
+  background: #B00020;
   background-image: url("../images/banner.png");
   background-position: center top;
   background-repeat: no-repeat;
@@ -13,14 +13,14 @@ body {
   margin: 0 0 0 0;
 }
 .main_container {
-  background: red;
+  background: #B00020;
   height: auto;
   width: 100vw;
   display: flex;
   justify-content: center;
 }
 .content_container {
-  background: #2F2D2D;
+  background: #121212;
   width: 80vw;
   height: auto;
   display: flex;
@@ -29,6 +29,7 @@ body {
   border-radius: 30px;
   margin: 20px;
   box-shadow: 0 19px 18px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  border: 2px solid #f6f6f6;
 }
 .title {
   display: flex;
@@ -41,7 +42,7 @@ body {
   margin: 0;
 }
 .title h1 {
-  color: red;
+  color: #B00020;
   font-size: 6vw;
   margin: 0;
 }
@@ -50,12 +51,13 @@ body {
 }
 .banner {
   width: 95%;
-  background: red;
+  background: #B00020;
   text-align: center;
   border-radius: 30px;
-  margin: 10px;
+  margin: 10px 10px 20px 10px;
   box-shadow: 0 19px 18px rgba(0,0,0,1), 0 15px 12px rgba(0,0,0,1);
   color: #f6f6f6;
+  border: 2px solid #f6f6f6
 }
 .section01 {
   width: 80vw;
@@ -68,6 +70,8 @@ body {
   width: 30vw;
   border-radius: 30px;
   box-shadow: 0 19px 18px rgba(0,0,0,1), 0 15px 12px rgba(0,0,0,1);
+  margin: 10px 10px 20px 10px;
+  border: 2px solid #f6f6f6;
 }
 .reels_section {
   display: flex;
@@ -76,7 +80,6 @@ body {
   align-items: center;
 }
 iframe {
-  box-shadow: 0 19px 18px rgba(0,0,0,0.8), 0 15px 12px rgba(0,0,0,0.8);
   margin: 10px;
 }
 .resume_section {
@@ -89,7 +92,7 @@ iframe {
   width: 80vw;
   height: auto;
   display: flex;
-  padding: 5px;
+  padding: 15px;
 }
 .resumes img {
   border-radius: 30px;
